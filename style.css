@@ -1,0 +1,21 @@
+﻿body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f3f4f6;
+}
+
+.custom-radio:checked + label {
+    border-color: #2563eb;
+    background-color: #eff6ff;
+}
+
+.correct-answer {
+    background-color: #d1fae5 !important;
+    border-color: #10b981 !important;
+    color: #065f46 !important;
+}
+
+.wrong-answer {
+    background-color: #fee2e2 !important;
+    border-color: #ef4444 !important;
+    color: #991b1b !important;
+}
